@@ -1,0 +1,15 @@
+.d-flex{
+    display: flex;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.f-height{
+    height: calc(100vh - $headerHeight);
+}
