@@ -1,7 +1,7 @@
 .ctas-wrapper{
     width: 90%;
     border: 1px solid $white;
-    padding: 205px ;
+    padding: 205px 0;
     // height: calc(100vh - $headerHeight);
     margin: 0 auto;
     position: relative;
@@ -18,8 +18,12 @@
     }
 
     .cta{
+        width: 50%;
+
         p{
             color: $dark-grey;
+            font-size: 14px;
+            margin-bottom: 10px;
         }
 
         h1{
@@ -28,9 +32,10 @@
             text-transform: uppercase;
             font-weight: 100;
             position: relative;
+            display: inline-flex;
 
-            &:before{
-                content: '';
+            .underline{
+                display:inline-block;
                 width: 100%;
                 height: 1px;
                 position: absolute;
@@ -42,7 +47,7 @@
                 transition: transform 0.4s ease-out;
             }
 
-            &:hover:before{
+            &:hover .underline{
                 transform: scaleX(1);
             }
         }

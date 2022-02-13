@@ -10,6 +10,29 @@
     align-items: center;
 }
 
+.ai-fs{
+    align-items: flex-start;
+}
+
+.fd-c{
+    flex-direction: column;
+}
+
 .f-height{
     height: calc(100vh - $headerHeight);
+}
+
+.f-width{
+    width: 100%;
+}
+
+.hero__cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $light-blue;
+    transform: scaleY(0);
+    transform-origin: 0% 100%;
 }
