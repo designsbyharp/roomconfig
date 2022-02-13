@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.js-c{
+    justify-content: center;
+}
+
 .jc-sb{
     justify-content: space-between;
 }
@@ -32,7 +36,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: $light-blue;
+    background-color: $pink;
     transform: scaleY(0);
     transform-origin: 0% 100%;
 }
