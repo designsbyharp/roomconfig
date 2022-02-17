@@ -8,11 +8,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^17.0.18",
     "sass": "^1.49.7",
     "vite": "^2.8.0"
   },
   "dependencies": {
     "gsap": "^3.9.1",
-    "normalize-scss": "^7.0.1"
+    "normalize-scss": "^7.0.1",
+    "three": "^0.137.5"
   }
 }

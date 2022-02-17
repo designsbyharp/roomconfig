@@ -1,0 +1,24 @@
+@import './styles/abstracts/_variables';
+@import './styles/abstracts/_mixins';
+@import './styles/abstracts/_utilities';
+
+@import './styles/base/_reset';
+@import './styles/base/_typography';
+@import './styles/base/_body';
+
+@import './styles/components/_ctas';
+@import './styles/components/_hero';
+@import './styles/components/_close_btn';
+@import './styles/components/_pg-layouts';
+@import './styles/components/_preset_layouts';
+
+@import './styles/layout/_grid';
+@import './styles/layout/_header';
+@import './styles/layout/_navigation';
+
+// @use './vendors/normalize';
+
+
+// @use './components/slider';
+
+
